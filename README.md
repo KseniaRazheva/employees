@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+```
+git status 
+git add . 
+git status 
+git commit -m "add/update/return file.js" 
+git push -u origin main
+```
+
+потом
+```
+npm i
+```
+создались зависимости из package.json, создалась папка node_modules и файл package-lock.json
+//
+
+потом
+```
+npm start 
+```
+чтобы открыть сайт на http://localhost:3000/
